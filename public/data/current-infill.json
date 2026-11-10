@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "name": "杨浦滨江 2026 现状补充建筑体块",
+    "retrieved": "2026-10-27",
+    "buildingCount": 24,
+    "basis": "高德当前公开影像中的屋顶与楼体阴影，结合 2026 年政府公开建设进展校正。",
+    "note": "仅补充 OSM 缺失的次要现状建筑；白色体块为概模，非施工模型。高度优先采用公开资料，缺失时按影像阴影与周边尺度推定；沿用背景建筑 2× 纵向显示倍率。",
+    "sources": [
+      "https://www.shyp.gov.cn/shypq/yshj-gzdt/20260702/508688.html",
+      "https://www.shanghai.gov.cn/nw4411/20260226/8af3a5b96478437aa1526aacb8d5ee64.html",
+      "https://www.shanghai.gov.cn/nw4411/20261019/878fa51a66414b5b8fb0da67e9c4e681.html"
+    ]
+  },
+  "buildings": [
+    {
+      "id": "infill-01",
+      "group": "中国节能·上海首座",
+      "name": "中国节能·上海首座 01",
+      "x": 7,
+      "z": -7,
+      "widthMeters": 32.4,
+      "depthMeters": 32.4,
+      "heightMeters": 105,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-02",
+      "group": "中国节能·上海首座",
+      "name": "中国节能·上海首座 02",
+      "x": 18,
+      "z": -24,
+      "widthMeters": 27.9,
+      "depthMeters": 27.9,
+      "heightMeters": 85,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-03",
+      "group": "中国节能·上海首座",
+      "name": "中国节能·上海首座 03",
+      "x": 29,
+      "z": -37,
+      "widthMeters": 27.9,
+      "depthMeters": 26.4,
+      "heightMeters": 65,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-04",
+      "group": "中国节能·上海首座",
+      "name": "中国节能·上海首座 04",
+      "x": 12,
+      "z": 5,
+      "widthMeters": 40.0,
+      "depthMeters": 15.0,
+      "heightMeters": 18,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-05",
+      "group": "杨浦滨江创智中心",
+      "name": "杨浦滨江创智中心 01",
+      "x": 34,
+      "z": -6,
+      "widthMeters": 34.2,
+      "depthMeters": 32.4,
+      "heightMeters": 110,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-06",
+      "group": "杨浦滨江创智中心",
+      "name": "杨浦滨江创智中心 02",
+      "x": 38,
+      "z": 8,
+      "widthMeters": 40.0,
+      "depthMeters": 13.8,
+      "heightMeters": 20,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-07",
+      "group": "杨浦滨江创智中心",
+      "name": "杨浦滨江创智中心 03",
+      "x": 27,
+      "z": 7,
+      "widthMeters": 15.0,
+      "depthMeters": 13.8,
+      "heightMeters": 35,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-08",
+      "group": "美团上海科技中心",
+      "name": "美团上海科技中心 01",
+      "x": 48,
+      "z": -39,
+      "widthMeters": 34.2,
+      "depthMeters": 34.2,
+      "heightMeters": 180,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-09",
+      "group": "美团上海科技中心",
+      "name": "美团上海科技中心 02",
+      "x": 64,
+      "z": -39,
+      "widthMeters": 34.2,
+      "depthMeters": 34.2,
+      "heightMeters": 125,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-10",
+      "group": "美团上海科技中心",
+      "name": "美团上海科技中心 03",
+      "x": 48,
+      "z": -8,
+      "widthMeters": 32.6,
+      "depthMeters": 27.9,
+      "heightMeters": 76,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-11",
+      "group": "美团上海科技中心",
+      "name": "美团上海科技中心 04",
+      "x": 69,
+      "z": -9,
+      "widthMeters": 29.4,
+      "depthMeters": 27.9,
+      "heightMeters": 95,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-12",
+      "group": "美团上海科技中心",
+      "name": "美团上海科技中心 05",
+      "x": 55,
+      "z": 4.4,
+      "widthMeters": 32.5,
+      "depthMeters": 12.5,
+      "heightMeters": 22,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-13",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 01",
+      "x": 86,
+      "z": -43,
+      "widthMeters": 37.8,
+      "depthMeters": 36.0,
+      "heightMeters": 150,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-14",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 02",
+      "x": 103,
+      "z": -43,
+      "widthMeters": 23.2,
+      "depthMeters": 26.4,
+      "heightMeters": 70,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-15",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 03",
+      "x": 82,
+      "z": -28,
+      "widthMeters": 20.2,
+      "depthMeters": 23.2,
+      "heightMeters": 60,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-16",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 04",
+      "x": 100,
+      "z": -26.2,
+      "widthMeters": 17.5,
+      "depthMeters": 17.5,
+      "heightMeters": 55,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-17",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 05",
+      "x": 111,
+      "z": -36,
+      "widthMeters": 13.8,
+      "depthMeters": 15.0,
+      "heightMeters": 45,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-18",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 06",
+      "x": 94,
+      "z": -17,
+      "widthMeters": 16.2,
+      "depthMeters": 15.0,
+      "heightMeters": 40,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-19",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 07",
+      "x": 105,
+      "z": -18,
+      "widthMeters": 13.8,
+      "depthMeters": 12.5,
+      "heightMeters": 35,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-20",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 08",
+      "x": 78,
+      "z": -10,
+      "widthMeters": 15.0,
+      "depthMeters": 15.0,
+      "heightMeters": 45,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-21",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 09",
+      "x": 113,
+      "z": -49,
+      "widthMeters": 12.5,
+      "depthMeters": 15.0,
+      "heightMeters": 50,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-22",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 10",
+      "x": 72,
+      "z": -28,
+      "widthMeters": 13.8,
+      "depthMeters": 16.2,
+      "heightMeters": 55,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-23",
+      "group": "哔哩哔哩新世代产业园",
+      "name": "哔哩哔哩新世代产业园 11",
+      "x": 91,
+      "z": -30,
+      "widthMeters": 12.5,
+      "depthMeters": 13.8,
+      "heightMeters": 45,
+      "rotation": -0.35
+    },
+    {
+      "id": "infill-24",
+      "group": "中交滨江广场配套",
+      "name": "中交滨江广场配套 01",
+      "x": -155,
+      "z": 86,
+      "widthMeters": 24.8,
+      "depthMeters": 24.8,
+      "heightMeters": 80,
+      "rotation": -0.35
+    }
+  ]
+}

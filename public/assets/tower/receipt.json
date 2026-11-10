@@ -1,0 +1,79 @@
+{
+  "id": "01-L2-0007",
+  "name": "现代高层（打捞复用）",
+  "mode": "original",
+  "revision": "d412835ed51fbd8ffd0dfca6767e0d2ee2e548f073e88a0cd6bcb67db6a32f21",
+  "version": "compact-v2+orientation-v1",
+  "sourceSha256": "11e1357aac8e5b25afe56e49bee227245a676438d7b134d0adb8e499240919dc",
+  "sourceModule": "/home/zhaojinglun/asset-browser/cache/live/01-L2-0007/7df16f018ca8dc568f203a59a4ce8e46/asset.mjs",
+  "sourceBytes": 46572356,
+  "bytes": 8765652,
+  "entryBytes": 7937,
+  "defaultState": "default",
+  "states": [
+    "default"
+  ],
+  "stateBytes": {
+    "default": 8756756
+  },
+  "verticesBefore": 1455012,
+  "verticesAfter": 429549,
+  "indexedGeometries": 2,
+  "geometryBytesBefore": 34920288,
+  "geometryBytesAfter": 16129224,
+  "textureBytesBefore": 0,
+  "textureBytesAfter": 0,
+  "exactTextures": 0,
+  "colorTexturesOptimized": [],
+  "geometryReconstructionExact": true,
+  "allStatesPreserved": true,
+  "allMaterialsPreserved": true,
+  "files": {
+    "README.md": {
+      "bytes": 3240,
+      "sha256": "d509c316cbe02cba33e4d3433280fa56012b1427e978c12b3bf84b40d29c534c"
+    },
+    "THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    "asset.mjs": {
+      "bytes": 7937,
+      "sha256": "5805a10b8577b8a32683f60563fb78fe85275a5c584c66c81eb60b46096c3e59"
+    },
+    "data.json.gz": {
+      "bytes": 1971,
+      "sha256": "7ab772178cee13fd3e5d4a4d50fcd524fe31f711c4caa68aaadd0f52bf5209fb"
+    },
+    "loader.mjs": {
+      "bytes": 3198,
+      "sha256": "c4394edfa2f78b47f55304d7126f1e16fd13667107fa2475cfd08c1b300fc42d"
+    },
+    "pack-1.bin.gz": {
+      "bytes": 8743731,
+      "sha256": "dd4f6f11c332601df99f90dd48aeb34882a82a4daad3c3d5206db2be394dc65b"
+    },
+    "orientation.json": {
+      "bytes": 971,
+      "sha256": "539339ef2ea929330bb948a61f213f2e83ac5fa3c13e302770f25d2e9f43267e"
+    },
+    "orientation.mjs": {
+      "bytes": 865,
+      "sha256": "e46240e23439682c5c10dec33464ff5ee0ae3da4fc135e17e4c7b252af560c13"
+    }
+  },
+  "relativeDirectory": "01-L2-0007/compact-v2-11e1357aac8e",
+  "elapsedSeconds": 2.11,
+  "qualification": "original",
+  "reusedFrom": "01-L2-0007/compact-v1-11e1357aac8e",
+  "reusedReceiptSha256": "4ab115ab98d64368d6d18bdaa2d6c50ac659b4b358ceabd76e0c7e5352078ec8",
+  "textureEncodings": [],
+  "payloadBytes": 8759223,
+  "orientationRevision": "2026-10-13",
+  "orientationStatus": "unknown",
+  "predecessor": {
+    "batch": "2026-10-12",
+    "zipSha256": "bbd20176942ce5800d135983d77c6faf553df2e8e19d844a6cd25fa871d59fb3",
+    "receiptSha256": "1f1db0676e6885260510f2d49bd2aa6c08d2c26d14cd39a4560c5e8160b9c909"
+  }
+}

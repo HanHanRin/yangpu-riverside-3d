@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#182321" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <title>时间之岸｜杨浦滨江 3D 城市切片</title>
+  <meta name="description" content="同一滨江，五个时代。探索杨浦滨江从工业锈带到生活秀带、创新秀带的3D城市变迁。" />
+</head>
+<body>
+  <main id="app">
+    <div id="scene" aria-label="杨浦滨江三维城市模型"></div>
+    <div id="static-poster"><span>时间之岸</span><small>正在构建杨浦滨江城市切片…</small></div>
+    <div id="labels" aria-label="场景地标"></div>
+    <div id="lifeLabels" aria-label="工作生活设施"></div>
+    <div id="compareOverlay" hidden><div class="compare-divider"></div><span class="compare-year left" id="compareLeftYear">1995</span><span class="compare-year right">2026</span><small class="compare-hint">同一视角 · 历史断面可切换年代</small></div>
+
+    <header class="topbar">
+      <button class="brand" id="homeBtn" aria-label="返回城市总览">
+        <span class="brand-mark">YP</span>
+        <span><strong>时间之岸</strong><small>YANGPU RIVERFRONT ATLAS</small></span>
+      </button>
+      <div class="era-heading" aria-live="polite"><span id="eraKicker">1955 · 工业锈带</span><strong id="eraTitle">国营工业体系</strong></div>
+      <nav class="top-actions" aria-label="工具">
+        <button id="compareBtn" class="tool-btn"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 5h6v14H3zM15 5h6v14h-6z"/></svg><span>今昔对比</span></button>
+        <button id="tourBtn" class="tool-btn demo-btn" aria-pressed="false" title="自动演示滨江地标"><svg viewBox="0 0 24 24"><path d="m8 5 11 7-11 7Z"/></svg><span>自动演示</span></button>
+        <button id="trafficBtn" class="tool-btn active" aria-pressed="true"><svg viewBox="0 0 24 24"><path d="M3 14v-4l2-5h14l2 5v4M5 14v3M19 14v3M4 10h16M7 14h2M15 14h2"/></svg><span>车流</span></button>
+        <button id="peopleBtn" class="tool-btn active" aria-pressed="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><path d="m9 22 1-7-2-3 2-4h4l2 4-2 3 1 7M8 12l-3 3M16 12l3 3"/></svg><span>行人</span></button>
+        <button id="labelBtn" class="tool-btn active" aria-pressed="true"><svg viewBox="0 0 24 24"><path d="M12 21s7-5.1 7-12A7 7 0 1 0 5 9c0 6.9 7 12 7 12Z"/><circle cx="12" cy="9" r="2.3"/></svg><span>地标</span></button>
+        <button id="lifeBtn" class="tool-btn active" aria-pressed="true"><svg viewBox="0 0 24 24"><path d="M4 20V9m16 11V9M2 9h20M7 9V5h10v4M8 14h2m4 0h2M8 17h2m4 0h2"/></svg><span>生活地图</span></button>
+        <button id="sourceBtn" class="tool-btn"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.2"/></svg><span>说明</span></button>
+      </nav>
+    </header>
+
+    <aside class="site-index closed" id="siteIndex">
+      <button class="index-toggle" id="indexToggle" aria-expanded="false" title="点击展开或收起；拖动可移动面板"><span>滨江地标</span><small id="siteCount">10 处</small><svg viewBox="0 0 24 24"><path d="m8 10 4 4 4-4"/></svg></button>
+      <div class="index-body" id="indexBody"><div id="siteList"></div></div>
+      <div class="map-key"><span><i class="key-old"></i>工业遗存</span><span><i class="key-new"></i>当代植入</span></div>
+    </aside>
+
+    <aside class="site-index life-index closed" id="lifeIndex">
+      <button class="index-toggle" id="lifeToggle" aria-expanded="false" title="点击展开或收起；拖动可移动面板"><span>工作生活圈</span><small id="lifeCount">20 处</small><svg viewBox="0 0 24 24"><path d="m8 10 4 4 4-4"/></svg></button>
+      <div class="index-body" id="lifeBody">
+        <div class="life-filters" id="lifeFilters" aria-label="生活设施分类">
+          <button class="active" data-category="all">全部</button><button data-category="commerce">商业</button><button data-category="park">公园</button><button data-category="activity">活动</button><button data-category="culture">文化</button>
+        </div>
+        <div id="lifeList"></div><p class="life-distance-note">距离按抖音滨江中心直线估算</p>
+      </div>
+    </aside>
+
+    <section class="story-panel" id="storyPanel" aria-live="polite" hidden>
+      <button id="closeStory" class="close-story" aria-label="关闭详情">×</button>
+      <div class="story-number" id="storyNumber">1955</div>
+      <p class="story-overline" id="storyOverline">时代断面 / ERA SECTION</p>
+      <h1 id="storyTitle">国营工业体系</h1>
+      <p class="story-subtitle" id="storySubtitle"></p>
+      <div class="story-rule"></div>
+      <p id="storyBody">点击场景中的地标，或从左侧索引选择一处地址，观察它在不同年代的外形与功能。</p>
+      <div id="evolution" class="evolution" hidden></div>
+      <div class="story-meta" id="storyMeta"><span>拖拽旋转</span><span>滚轮缩放</span><span>← → 切年</span></div>
+      <button id="focusBtn" class="focus-btn" hidden>返回此地当前视角</button>
+    </section>
+
+    <div class="compass" aria-hidden="true"><span>N</span><svg viewBox="0 0 50 50"><path d="M25 4 31 25 25 21 19 25Z"/><path class="south" d="M25 46 19 25 25 29 31 25Z"/></svg><small>黄浦江</small></div>
+    <div class="scene-caption"><span id="sceneStatus">1955 年空间模型</span><small>OSM 真实岸线／道路／建筑轮廓 · 体块高度 2× 显示 · 历史背景为推演</small></div>
+    <div id="toast" role="status"></div>
+
+    <footer class="timeline-shell">
+      <div class="timeline-topline">
+        <div class="timeline-title"><span>城市时间切片</span><small>同一地址 · 不同外形与功能</small></div>
+        <button id="playBtn" class="play-btn" aria-label="播放年代变迁"><svg class="play-icon" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7Z"/></svg><svg class="pause-icon" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></svg><span>播放变迁</span></button>
+      </div>
+      <div class="timeline" id="timeline"></div>
+      <div class="timeline-scale"><span>工业化</span><i></i><span>停产更新</span><i></i><span>开放共享</span></div>
+    </footer>
+  </main>
+
+  <dialog id="sourceDialog">
+    <div class="dialog-head"><div><small>ABOUT THE MODEL</small><h2>关于这座城市切片</h2></div><button id="closeDialog" aria-label="关闭">×</button></div>
+    <p>模型使用 OpenStreetMap／Overpass 的真实黄浦江水面边界、岸线、道路与 1,289 个现状建筑轮廓，所有图层采用同一经纬度投影。2026 底图叠加经 GCJ-02 纠偏至 WGS84 的高德当前公开卫星影像，以低饱和方式补充街区、厂区硬化地与开放空间细节；22 处 OSM 运动场地保留真实外轮廓并叠加简化标线。针对影像与 OSM 尚未完整反映的现状建设，结合 2026 年政府公开建设进展，在中国节能·上海首座、杨浦滨江创智中心、美团上海科技中心、哔哩哔哩新世代产业园及中交滨江广场周边补充 24 个次要建筑白色体块。公开瓦片未提供拍摄日期，检索日期不等于拍摄日期；补充体块的高度优先采用公开资料，缺失时按影像阴影与周边尺度推定，均为概模而非施工模型。建筑统一以 2× 纵向倍率显示以便城区阅读，平面轮廓不缩放。历史断面不使用当代影像或补充体块，其背景建筑存续与高度是可视化推演，重点地标依据公开实景进行特征化建模，并非历史测绘或文保勘察。</p>
+    <div class="method-grid"><div><strong>保留</strong><p>红砖厂房、锯齿屋顶、双船坞、塔吊、烟囱、灰仓、双子仓库等可识别工业肌理。</p></div><div><strong>新增</strong><p>水厂栈桥、绿之丘退台、博物馆公共入口，以及老船厂四跨厂房之上的抖音办公主楼。</p></div></div>
+    <p><strong>2026 工作生活层：</strong>以抖音集团上海滨江中心为原点，增加 20 处商业、公园、运动活动与文化设施，包含老船厂 MEET178、船排广场、观浪公园、东方渔人码头、滨江百联、大桥公园、平定路球场和船台 PARK 等。OSM 绿地与运动地表增加色彩和简化设施，绿地内补充 605 株树木；真实步行道与骑行道分色显示，商业与文化设施保留真实建筑轮廓。可使用“生活地图”独立开关、分类筛选与定位。列表距离为与工区坐标的直线距离，不是步行导航；无独立 OSM 轮廓的设施只作点级标识，不表示精确占地或权属边界。此层只进入 2026 断面。</p>
+    <h3>主要公开资料</h3><div id="sourceLinks" class="source-links"></div>
+    <p class="credits">影像署名：© 高德地图 AutoNavi；影像检索于 2026-10-27，拍摄日期未随公开瓦片提供。场景使用程序化建筑生成；背景现代高层复用 Kimi 设计资产库「现代高层（打捞复用）」，保留原始层级并仅作外部放置与尺度调整。其余建筑与景观均为本项目的特征化概模。</p>
+  </dialog>
+  <script type="module" src="/src/scene.js"></script>
+</body>
+</html>
