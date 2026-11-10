@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "name": "抖音滨江中心工作生活空间",
+    "retrieved": "2026-10-28",
+    "origin": { "id": "shipyard", "name": "抖音集团上海滨江中心", "x": -178, "z": 129.5 },
+    "note": "设施位置优先对应项目 OSM 快照中的建筑、地表与道路；政府公开资料用于核对 2026 年名称与功能。无独立 OSM 轮廓的设施仅作点级标识，不表示权属或精确占地边界。距离为与工区坐标之间的直线距离。"
+  },
+  "places": [
+    {
+      "id": "meet178", "name": "老船厂 MEET178", "short": "MEET178", "category": "commerce",
+      "x": -183, "z": 119, "priority": 1,
+      "description": "工区门口的多元生活创艺街区，适合餐饮、外摆小坐、青年文化与展演活动。",
+      "source": "上海市政府 2026-10-19"
+    },
+    {
+      "id": "slipway-square", "name": "船排广场", "short": "船排广场", "category": "activity",
+      "x": -172.3, "z": 127.1, "priority": 1, "surfaceIds": [1370141330],
+      "description": "保留船厂工业痕迹的开放广场，可连接工区、商业街区与滨江步行空间。",
+      "source": "上海市政府 2026-10-19；OSM 地表 1370141330"
+    },
+    {
+      "id": "wave-park", "name": "观浪公园", "short": "观浪公园", "category": "park",
+      "x": -206.8, "z": 104.5, "priority": 1, "surfaceIds": [1370141326],
+      "description": "老船厂旁的滨水绿色开放空间，适合短时散步、观江和下班后的户外放松。",
+      "source": "上海市政府 2026-10-19；OSM 地表 1370141326"
+    },
+    {
+      "id": "fishermans-wharf", "name": "东方渔人码头", "short": "东方渔人码头", "category": "commerce",
+      "x": -90.5, "z": 103.2, "priority": 1, "buildingIds": [481725215, 1208491565, 1208491566],
+      "description": "滨江餐饮、商业与江景活动综合体，室外广场和中庭可承载聚会及公共活动。",
+      "source": "OSM 建筑轮廓；杨浦区公开活动资料"
+    },
+    {
+      "id": "showbund-square", "name": "秀带广场", "short": "秀带广场", "category": "activity",
+      "x": -92.1, "z": 115.9, "priority": 2, "surfaceIds": [1370142132],
+      "description": "渔人码头旁的滨江公共活动节点，可举办市集、艺术装置和节庆活动。",
+      "source": "上观新闻 2026-03-29；OSM 地表 1370142132"
+    },
+    {
+      "id": "rain-garden", "name": "怡和纱厂雨水花园", "short": "雨水花园", "category": "park",
+      "x": -153.7, "z": 115.1, "priority": 2,
+      "description": "工业遗存与雨水花园结合的开放空间，适合安静散步和短时独处。",
+      "source": "杨浦滨江公开导览与保护利用资料；点级位置"
+    },
+    {
+      "id": "water-cafe", "name": "净水池咖啡厅", "short": "净水池咖啡", "category": "culture",
+      "x": -125.6, "z": 107.8, "priority": 3,
+      "description": "水厂历史空间中的咖啡休闲节点，可结合滨江步道安排短时休息。",
+      "source": "解放日报 2025-12-01；点级位置"
+    },
+    {
+      "id": "river-bookstore", "name": "人民城市·滨江书苑", "short": "滨江书苑", "category": "culture",
+      "x": -37.3, "z": 84.3, "priority": 2, "buildingIds": [481557069],
+      "description": "兼具阅读、亲子阅览与文化交流的公共空间，适合安静阅读和轻型活动。",
+      "source": "解放日报 2025-12-01；OSM 建筑 481557069"
+    },
+    {
+      "id": "green-hill-life", "name": "绿之丘城市花园", "short": "绿之丘花园", "category": "park",
+      "x": -18.1, "z": 69.6, "priority": 1,
+      "description": "退台绿化、空中花园与观景步行系统叠加的滨水休闲空间。",
+      "source": "杨浦滨江公开导览；现状地标位置"
+    },
+    {
+      "id": "bridge-park", "name": "大桥公园", "short": "大桥公园", "category": "park",
+      "x": -0.2, "z": 37.8, "priority": 1, "surfaceIds": [1208662451],
+      "description": "杨浦大桥周边的绿地与下沉活动空间，可散步、休憩并连接滨江绿道。",
+      "source": "杨浦区公开资料；OSM 地表 1208662451"
+    },
+    {
+      "id": "bailian", "name": "滨江百联购物中心", "short": "滨江百联", "category": "commerce",
+      "x": -34.4, "z": -45.5, "priority": 1, "buildingIds": [983163983],
+      "description": "腹地综合商业，可补充日常购物、餐饮和聚会选择。",
+      "source": "OSM 建筑 983163983"
+    },
+    {
+      "id": "cecep-life", "name": "中节能文化生活配套", "short": "滨江图书馆", "category": "culture",
+      "x": 7, "z": -7, "priority": 2,
+      "description": "规划配套杨浦区图书馆滨江分馆、上海国际儿童友好中心及餐饮零售空间。",
+      "source": "杨浦区政府 2026-07-02；项目级点位"
+    },
+    {
+      "id": "innovation-life", "name": "创智中心公共文化空间", "short": "创智文化中心", "category": "culture",
+      "x": 34, "z": -6, "priority": 2,
+      "description": "融合会议、艺术、展览与公园中心，形成办公之外的公共文化生活节点。",
+      "source": "解放日报 2026-02-25；项目级点位"
+    },
+    {
+      "id": "pingding-sports", "name": "平定路滨江球场", "short": "平定路球场", "category": "activity",
+      "x": 106.5, "z": -21.3, "priority": 1, "surfaceIds": [1444800039, 1444800040],
+      "description": "滨江室外运动节点，公开资料列有网球场与篮球场，适合下班后运动。",
+      "source": "杨浦区体育局 2026；OSM 运动地表"
+    },
+    {
+      "id": "fashion-life", "name": "上海国际时尚中心", "short": "时尚中心", "category": "commerce",
+      "x": 160.9, "z": -121, "priority": 1,
+      "description": "集时尚商业、文旅、展演和滨水活动于一体，可购物、看展或参加节庆活动。",
+      "source": "杨浦区公开活动资料；现状地标位置"
+    },
+    {
+      "id": "shipgate-park", "name": "船台 PARK", "short": "船台 PARK", "category": "activity",
+      "x": 151.9, "z": -132.8, "priority": 2, "surfaceIds": [1367364352],
+      "description": "由工业船台更新的活动空间，包含广场、滑板场地与大型活动设施。",
+      "source": "杨浦区体育局 2026；OSM 地表 1367364352"
+    },
+    {
+      "id": "oil-art-park", "name": "油酷艺术公园", "short": "油酷艺术公园", "category": "park",
+      "x": 175, "z": -130.4, "priority": 3, "surfaceIds": [1367357875],
+      "description": "电厂工业遗存附近的生态与艺术开放空间，可结合船台 PARK 一并游览。",
+      "source": "杨浦区公开资料；OSM 绿地 1367357875"
+    },
+    {
+      "id": "yangpu-gym", "name": "杨浦体育馆", "short": "杨浦体育馆", "category": "activity",
+      "x": -1.7, "z": -197.2, "priority": 3, "buildingIds": [68573343],
+      "description": "滨江腹地的综合体育设施，可作为室内运动与赛事活动补充。",
+      "source": "OSM 建筑 68573343"
+    },
+    {
+      "id": "qiqiao", "name": "七巧国儿童中心", "short": "七巧国亲子", "category": "commerce",
+      "x": 22.1, "z": -159.5, "priority": 3, "buildingIds": [1003031441],
+      "description": "面向亲子与家庭活动的商业设施，补充周末家庭休闲选择。",
+      "source": "OSM 建筑 1003031441"
+    },
+    {
+      "id": "promenade", "name": "5.5 公里滨江步道与骑行道", "short": "滨江步道·骑行道", "category": "activity",
+      "x": -71.583, "z": 108.488, "priority": 1, "roadIds": [1370142131, 806275577, 499676924, 730915073, 1117898209],
+      "description": "连续滨水慢行系统，串联工区、渔人码头、绿之丘、大桥公园及多处活动节点。",
+      "source": "杨浦区体育局 2026；OSM 步行与骑行路径"
+    }
+  ]
+}

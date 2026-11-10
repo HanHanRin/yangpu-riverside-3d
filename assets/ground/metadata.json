@@ -1,0 +1,19 @@
+{
+  "source": "高德地图当前公开卫星影像（GCJ-02 已纠偏至 WGS84）",
+  "attribution": "© 高德地图 AutoNavi",
+  "service": "https://webst01.is.autonavi.com/appmaptile?style=6",
+  "bounds": {
+    "west": 121.505,
+    "south": 31.241,
+    "east": 121.566,
+    "north": 31.286
+  },
+  "imageSize": [
+    4096,
+    3580
+  ],
+  "retrieved": "2026-10-27",
+  "captureDate": "影像拍摄日期未随公开瓦片提供；已与其他影像及 2026 年建设进展交叉核对。",
+  "processing": "按 WGS84→GCJ-02 逐像素重采样对齐 OSM；降低饱和度、对比度并微调亮度。",
+  "note": "仅用于 2026 现状地表参考；施工状态另以 2026 年公开进展和补充体块校正，不作为历史地表或测绘成果。"
+}
